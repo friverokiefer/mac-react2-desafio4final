@@ -1,0 +1,25 @@
+nav {
+    background-color: #0077b6;
+    background-color: #0077b6; 
+    color: white;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav p {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+nav .Link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav .Link:hover {
+    color: #e0f4fd;
+}

@@ -1,0 +1,66 @@
+.pizza-detail-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pizza-detail-card img {
+  width: 100%;
+  display: block;
+}
+
+.pizza-detail-card h2 {
+  margin: 0;
+  padding: 20px;
+  background-color: #fff;
+  color: #e53935;
+  border-bottom: 1px solid #ddd;
+}
+
+.pizza-detail-card p {
+  padding: 0 20px;
+}
+
+.pizza-detail-card ul {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.pizza-detail-card li {
+  margin: 5px 0;
+  padding-left: 10px;
+}
+
+.pizza-detail-card .price {
+  font-size: 1.5rem;
+  padding: 20px;
+  color: #e53935;
+  font-weight: bold;
+}
+
+.pizza-detail-card button {
+  background-color: #e53935;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.pizza-detail-card button:hover {
+  background-color: #c62828;
+}
+
+.pizza-detail-card li::before {
+  content: '🍕';
+  margin-right: 5px;
+}
